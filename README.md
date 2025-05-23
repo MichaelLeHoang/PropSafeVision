@@ -20,27 +20,27 @@ This project helps real estate platforms automatically flag and filter user-uplo
 ```
 PropSafeVision/
 │
-├── data/                   # Dataset directory (not included in repo)
-│   ├── train/              # Training images
-│   ├── val/                # Validation images
-│   └── test/               # Test images
+├── data/                   
+│   ├── train/              
+│   ├── val/                
+│   └── test/               
 │
-├── src/                    # Source code for training and evaluation
-│   ├── train.py            # Script to train the model
-│   ├── eval.py             # Script to evaluate the model
-│   ├── models/             # Model architectures (CNN, ViT)
-│   ├── data/               # Data loading and preprocessing
-│   └── utils/              # Utility functions (logging, metrics, etc.)
+├── src/                    
+│   ├── train.py            
+│   ├── eval.py            
+│   ├── models/             
+│   ├── data/               
+│   └── utils/              
 │
-├── notebooks/              # Jupyter notebooks for experiments
-│   └── vit_experiments.ipynb  # ViT experimentation notebook
+├── notebooks/              
+│   └── vit_experiments.ipynb  
 │
-├── checkpoints/            # Directory for saving trained models
-│   └── cnn/                # CNN model checkpoints
+├── checkpoints/            
+│   └── cnn/                
 │
-├── requirements.txt        # Python dependencies
-├── LICENSE                 # MIT License file
-└── README.md               # Project documentation
+├── requirements.txt        
+├── LICENSE                 
+└── README.md               
 ```
 
 ## 🛠️ Prerequisites
@@ -56,7 +56,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/PropSafeVision.git
+   git clone https://github.com/MichaelLeHoang/PropSafeVision.git
    cd PropSafeVision
    ```
 
@@ -209,8 +209,5 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ## 📧 Contact
 
-For questions or suggestions, feel free to open an issue or contact the maintainers at [your-email@example.com](mailto:your-email@example.com).
+For questions or suggestions, feel free to open an issue or contact the maintainers at [m4le@uwaterloo.ca](mailto:m4le@uwaterloo.ca).
 
----
-
-Happy coding! 🏡🔍
