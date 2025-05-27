@@ -131,7 +131,7 @@ Follow the notebook instructions to fine-tune the Hugging Face ViT model on your
 | Model                  | Accuracy |
 |------------------------|----------|
 | Custom CNN             | 87%      |
-| HuggingFace ViT (preliminary) | 89% (ongoing) |
+| HuggingFace ViT (preliminary) | 96%  |
 
 ## 🛠️ Configuration Options
 
